@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+div{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+	height:92px;
+	background: url(../img/bg-top.png) repeat-x,url(../img/top_bg.jpg) ;
+	background-size:100% 100%;
+}
+
+.logo img{
+	padding:5px;
+	padding-left:30px;
+	margin-bottom:20px;
+}
+
+.menu{
+	height:41px;
+	background:url(../img/repeat-menu.jpg) repeat-x;
+	color:#FFF;
+	margin-top:-10px;
+	padding-top:10px;
+}
+
+.modal-footer{
+
+	color:#FFF;
+}
+.menu ul{
+		
+}
+.menu ul li{
+float:left;
+	list-style:none;
+	padding-right:20px;
+	background:url(../img/side-menu.png) no-repeat right;
+	padding-left:20px;
+
+}
+
+.menu ul li a{
+		color:#FFF;
+		text-decoration:none;
+}
+.menu ul li a.select{
+	color:#f3af19;
+}
+
+.menu ul li a:hover{
+		color:#f3af19;
+		cursor:pointer;
+}
+.nav-out{
+	background:url(../img/shadow-content.png) repeat-x;
+	height:36px;
+	margin-top:-10px;
+}
+
+.content{
+padding-left:20px;
+width:97%;
+margin-bottom:40px;
+}
+
+.box-content{
+	border:1px solid #999;
+	min-width:760px;
+	min-height:300px;
+	padding:20px;
+}
+
+.table thead{
+	background:#333;
+	color:#FFF;
+
+	
+}
+
+.table thead td{
+		text-align:center;
+}
